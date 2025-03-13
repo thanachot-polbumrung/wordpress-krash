@@ -48,14 +48,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         'Uc~cr,d1JA[DTKG}08oVDf$,eDj)dh0lQu,;*G&#)nDB;_}U)>8d:wkJ)(zFqMh;' );
-define( 'SECURE_AUTH_KEY',  'bN!Lf };`(*14#tF<N?Y(/.X.4Q{%H-w+WVJ#m?r_=R$?`rkZAB*47|=*(w1tpM_' );
-define( 'LOGGED_IN_KEY',    'N)$`5[#gW_eF|&5{J7T4R/]F4p3=Y61|gwG:1.>ak(e)%<H#Ldy}&Ny.S2Dg<U>$' );
-define( 'NONCE_KEY',        'dF5x<vUaa~RvFT@NX+/xQ[+?<z#}ef{/8!gs[j(T$>@$T+p%nnoFi3nC@ob}545U' );
-define( 'AUTH_SALT',        '0r&6uI8xD4O?d`tO(zj]V;^~5rH(d%LLU,Z,3VlLMo~yNA56ic*<E/b3~s~;eY@q' );
-define( 'SECURE_AUTH_SALT', 'wrcFgmXYvVP!sz|v_w=zZQM[*]TV9!?4>zS=d:XL&~v%+J2%)JV(^-uUncBps<,;' );
-define( 'LOGGED_IN_SALT',   'MOby `IQh8K=r!@IvUM&3u=u6g*=j@ I#i6euW-1)_`^K55}#A?QKgp]d`YUa(R)' );
-define( 'NONCE_SALT',       'Gv=4OlNJM@y}DkvG9@RuL4H:ijZ|f~C7K!}ZreFF&@-7(o1pN{D=x2]#:8w,O7[=' );
+define( 'AUTH_KEY',         'N+p A^i?BI*[Q&PFPf.LTC%iIg{^dLhfZsJNwN}$Cj0V=@-?W+,&xfS#~*:!QlX ' );
+define( 'SECURE_AUTH_KEY',  'KBdZKT9;Rx3RC*n/&*C%u57%mU8f.4/<4=<Z2x+0=2*Z11GsV~nJ)h;IPefa8o<<' );
+define( 'LOGGED_IN_KEY',    'qnu{l5v3jI:Rz 8p#`oO/Gudis%]i!Rg[!?ny<FI$?;*OzvrU)lJ$r%U78dl/F?G' );
+define( 'NONCE_KEY',        'Dz%P@bPrcZA,R0?},2`Z]e!787Mxr!0xjJ Kb__k^QHWNW7nB:sy&{&j763Wd-Zc' );
+define( 'AUTH_SALT',        '*mg*3kl<^;h=><R7BEt/%5#cFtkY#tzF5ktn|d^ZFn/=}ffL8hl$31YC/0o;WIxH' );
+define( 'SECURE_AUTH_SALT', ',J23]0pE=bNx&<mlhYFX?seIMd1y;_U3M,#=#n&DUVKrNc:>ie{%*FRotuGTG4 j' );
+define( 'LOGGED_IN_SALT',   '91H;C]>ri.nRgU*r=PIJ2DIxXL8`Rpu;aJL0`CE.N4?WzH%Bs`xta]#Dzyk1j,PR' );
+define( 'NONCE_SALT',       'FX(2{6n0DHLG!6PtS+}u,9:)A77M:.mt5 ;.AlZ4+H$KY$q@`P<Ib?`#H(4:t!fc' );
 
 /**#@-*/
 
@@ -87,8 +87,11 @@ $table_prefix = 'wp_';
  */
 define( 'WP_DEBUG', false );
 
+define("FS_METHOD","direct");
+define("FTP_USER","USERNAME");
+define("FTP_PASS","PASSWORD");
+define("FTP_HOST","FTP.EXSAMPLE.COM");
 /* Add any custom values between this line and the "stop editing" line. */
-
 
 
 /* That's all, stop editing! Happy publishing. */
