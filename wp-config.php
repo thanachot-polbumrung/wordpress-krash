@@ -37,6 +37,12 @@ define( 'DB_CHARSET', 'utf8mb4' );
 /** The database collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
 
+// test localhost
+define("FS_METHOD","direct");
+define("FTP_USER","USERNAME");
+define("FTP_PASS","PASSWORD");
+define("FTP_HOST","FTP.EXSAMPLE.COM");
+
 /**#@+
  * Authentication unique keys and salts.
  *
@@ -87,10 +93,7 @@ $table_prefix = 'wp_';
  */
 define( 'WP_DEBUG', false );
 
-define("FS_METHOD","direct");
-define("FTP_USER","USERNAME");
-define("FTP_PASS","PASSWORD");
-define("FTP_HOST","FTP.EXSAMPLE.COM");
+
 /* Add any custom values between this line and the "stop editing" line. */
 
 
