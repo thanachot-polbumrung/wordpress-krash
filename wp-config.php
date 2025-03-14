@@ -37,12 +37,6 @@ define( 'DB_CHARSET', 'utf8mb4' );
 /** The database collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
 
-// test localhost
-define("FS_METHOD","direct");
-define("FTP_USER","USERNAME");
-define("FTP_PASS","PASSWORD");
-define("FTP_HOST","FTP.EXSAMPLE.COM");
-
 /**#@+
  * Authentication unique keys and salts.
  *
@@ -54,14 +48,14 @@ define("FTP_HOST","FTP.EXSAMPLE.COM");
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         'N+p A^i?BI*[Q&PFPf.LTC%iIg{^dLhfZsJNwN}$Cj0V=@-?W+,&xfS#~*:!QlX ' );
-define( 'SECURE_AUTH_KEY',  'KBdZKT9;Rx3RC*n/&*C%u57%mU8f.4/<4=<Z2x+0=2*Z11GsV~nJ)h;IPefa8o<<' );
-define( 'LOGGED_IN_KEY',    'qnu{l5v3jI:Rz 8p#`oO/Gudis%]i!Rg[!?ny<FI$?;*OzvrU)lJ$r%U78dl/F?G' );
-define( 'NONCE_KEY',        'Dz%P@bPrcZA,R0?},2`Z]e!787Mxr!0xjJ Kb__k^QHWNW7nB:sy&{&j763Wd-Zc' );
-define( 'AUTH_SALT',        '*mg*3kl<^;h=><R7BEt/%5#cFtkY#tzF5ktn|d^ZFn/=}ffL8hl$31YC/0o;WIxH' );
-define( 'SECURE_AUTH_SALT', ',J23]0pE=bNx&<mlhYFX?seIMd1y;_U3M,#=#n&DUVKrNc:>ie{%*FRotuGTG4 j' );
-define( 'LOGGED_IN_SALT',   '91H;C]>ri.nRgU*r=PIJ2DIxXL8`Rpu;aJL0`CE.N4?WzH%Bs`xta]#Dzyk1j,PR' );
-define( 'NONCE_SALT',       'FX(2{6n0DHLG!6PtS+}u,9:)A77M:.mt5 ;.AlZ4+H$KY$q@`P<Ib?`#H(4:t!fc' );
+define( 'AUTH_KEY',         '<LC(mD<9wm^bW-(z5(H}v!HNSQ4)*3!Wk23^&2amx4XVC S3VYcO(!je0JbA{+z~' );
+define( 'SECURE_AUTH_KEY',  '>=;hQ1!MPv/tx{;/Aob,](s4)g~``t^?(YMq=QvVJazl)PVaFl}=6V(Gghe*v!pK' );
+define( 'LOGGED_IN_KEY',    ']^9?w9aD?U]|NOQq&<V|pIBG|&Fp.pA)VZk/ p8Bj.m1?9V`iPxL39CQb8,$;jB$' );
+define( 'NONCE_KEY',        ')8qt00UBIBC1eb.<=Gk=yP9W>lN9/Tb>idjDDfyt~7`US|S(W[2q8c6X;f1igL`y' );
+define( 'AUTH_SALT',        ']#L}R+~u}50*bA4Ya9jfY_Gmn<7(b+=Q]=FG0ZLk8b<u5<@Oa[jJr>m|fDu;g/>!' );
+define( 'SECURE_AUTH_SALT', 'z$ $kzg53QE@i^P1fbcU+NTqpvENsC6kQUss>`+][wAtIu44}FCXTr(VOldL0I=o' );
+define( 'LOGGED_IN_SALT',   'tU+RSM_BpPFCt-m{cp8*<Oz/e7nJ~}bOWd,U}+]ot}3h.eW#c[cPk%?Tg=Hll)SR' );
+define( 'NONCE_SALT',       '{>jlndvs~7H{,dG+v:d[bxV,N:2_LAMZX^)J0U9629]=%(UN!kUl W~-(*Prvq]@' );
 
 /**#@-*/
 
@@ -93,11 +87,12 @@ $table_prefix = 'wp_';
  */
 define( 'WP_DEBUG', false );
 
-
 /* Add any custom values between this line and the "stop editing" line. */
 
 
+
 /* That's all, stop editing! Happy publishing. */
+define('FS_METHOD', 'direct');
 
 /** Absolute path to the WordPress directory. */
 if ( ! defined( 'ABSPATH' ) ) {
