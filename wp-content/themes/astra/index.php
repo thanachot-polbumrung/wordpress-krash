@@ -17,6 +17,13 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
 
+if (function_exists('wp_pagenavi')) {
+    wp_pagenavi();
+}
+
+	
+
+
 get_header(); ?>
 <?php if ( astra_page_layout() == 'left-sidebar' ) { ?>
 
