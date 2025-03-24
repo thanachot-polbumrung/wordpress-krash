@@ -7,7 +7,7 @@ get_header(); ?>
 
 <form class="row g-3">
     <h3>Contact Information</h3>
-<div class="col-md-6" style="display:flex,flex-direction:column">
+<div class="row" style="display:flex,flex-direction:column">
   <div style="width:45%" class="col-md-6">
     <label for="inputEmail4" class="form-label">Email</label>
     <input placeholder="E-mail" type="email" class="form-control" id="inputEmail4">
@@ -63,12 +63,12 @@ get_header(); ?>
   </div>
   <div class="col-md-6">
     <label for="inputCity" class="form-label">City</label>
-    <input type="text" class="form-control" id="inputCity">
+    <input type="text" class="form-control" placeholder="City"  id="inputCity">
   </div>
   
   <div class="col-md-2">
     <label for="inputZip" class="form-label">Zip</label>
-    <input type="text" class="form-control" id="inputZip">
+    <input type="text" placeholder="Zip" class="form-control" id="inputZip">
   </div>
   <div class="col-12">
    
